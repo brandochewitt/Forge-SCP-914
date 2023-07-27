@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @Mod(SCP914Mod.MOD_ID)
 public class SCP914Mod
 {
-    //testing github and tha
+    //testing github and
     public static final String MOD_ID = "scp914mod";
 
     // Directly reference a log4j logger.
