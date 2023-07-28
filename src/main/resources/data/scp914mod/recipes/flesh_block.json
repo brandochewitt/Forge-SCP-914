@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#x#",
+    "x#x",
+    "#x#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "x": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "scp914mod:flesh_block",
+    "count": 1
+  }
+}
