@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SCP914Mod.MOD_ID);
 
     public static final RegistryObject<Item> SCP500PILL = ITEMS.register("scp500pill",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCP_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

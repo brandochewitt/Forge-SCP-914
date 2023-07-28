@@ -1,3 +1,7 @@
 {
-  "item.scp914mod.scp500pill": "SCP-500 Pill"
+  "item.scp914mod.scp500pill": "SCP-500 Pill",
+
+  "block.scp914mod.flesh_block": "Flesh Block",
+
+  "itemGroup.scptab": "SCP Mod"
 }
