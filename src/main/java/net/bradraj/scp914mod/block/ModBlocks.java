@@ -23,7 +23,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FLESH_BLOCK = registerBlock("flesh_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.SPONGE)
-                    .strength(9f).requiresCorrectToolForDrops()) , ModCreativeModeTab.SCP_TAB);
+                    .strength(1f)) , ModCreativeModeTab.SCP_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
