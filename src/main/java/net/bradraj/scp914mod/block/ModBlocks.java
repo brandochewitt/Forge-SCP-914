@@ -1,6 +1,7 @@
 package net.bradraj.scp914mod.block;
 
 import net.bradraj.scp914mod.SCP914Mod;
+import net.bradraj.scp914mod.block.custom.ExampleEntity;
 import net.bradraj.scp914mod.item.ModCreativeModeTab;
 import net.bradraj.scp914mod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -24,6 +25,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLESH_BLOCK = registerBlock("flesh_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.SPONGE)
                     .strength(1f)) , ModCreativeModeTab.SCP_TAB);
+
+    public static final RegistryObject<Block> EXAMPLE_ENTITY = registerBlock("example_entity",
+            () -> new ExampleEntity(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f)) , ModCreativeModeTab.SCP_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

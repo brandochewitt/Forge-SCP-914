@@ -2,6 +2,7 @@
   "item.scp914mod.scp500pill": "SCP-500 Pill",
 
   "block.scp914mod.flesh_block": "Flesh Block",
+  "block.scp914mod.example_entity": "Example Block Entity",
 
   "itemGroup.scptab": "SCP Mod"
 }

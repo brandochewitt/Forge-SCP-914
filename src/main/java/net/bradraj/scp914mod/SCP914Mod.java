@@ -1,6 +1,7 @@
 package net.bradraj.scp914mod;
 
 import net.bradraj.scp914mod.block.ModBlocks;
+import net.bradraj.scp914mod.block.entity.ModBlockEntities;
 import net.bradraj.scp914mod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -36,6 +37,8 @@ public class SCP914Mod
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModBlockEntities.register(eventBus);
 
         eventBus.addListener(this::setup);
 
